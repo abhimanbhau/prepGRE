@@ -23,13 +23,5 @@ public class AboutFragment extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        showShowcase();
     }
-
-    private void showShowcase() {
-        if (getView() == null) {
-        }
-        //ViewTarget viewTarget = new ViewTarget(R.id.txtMainDataView, getActivity());
-    }
-
 }

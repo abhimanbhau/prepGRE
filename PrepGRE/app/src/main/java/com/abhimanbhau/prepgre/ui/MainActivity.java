@@ -35,17 +35,13 @@ public class MainActivity extends ActionBarActivity implements
 		case 1:
 			fragmentManager
 					.beginTransaction()
-					.replace(R.id.container, new HomeFragment())
-					.setCustomAnimations(R.anim.abc_slide_in_bottom,
-							R.anim.abc_slide_in_top).commit();
+					.replace(R.id.container, new HomeFragment()).commit();
 			break;
 
 		case 2:
 			fragmentManager
 					.beginTransaction()
-					.replace(R.id.container, new WordListFragment())
-					.setCustomAnimations(R.anim.abc_slide_in_bottom,
-							R.anim.abc_slide_in_top).commit();
+					.replace(R.id.container, new WordListFragment()).commit();
 			break;
 
 		case 3:
@@ -58,8 +54,7 @@ public class MainActivity extends ActionBarActivity implements
 			fragmentManager
 					.beginTransaction()
 					.replace(R.id.container, new AboutFragment())
-					.setCustomAnimations(R.anim.abc_slide_in_bottom,
-							R.anim.abc_slide_in_top).commit();
+					.commit();
 			break;
 
 		default:
