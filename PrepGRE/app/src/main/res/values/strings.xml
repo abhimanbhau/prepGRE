@@ -8,13 +8,9 @@
     <string name="title_section4">About</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="action_example">Example action</string>
-    <string name="action_settings">Settings</string>
     <string name="about_app_dev">PrepGRE\nAbhimanbhau Kolte © 2014\nIs a free app to help students, prepare for GRE vocabulary studies. </string>
     <string name="autocomplete_hint">Enter word to search</string>
     <string name="Mnemonic">Mnemonic</string>
     <string name="Etymology">Etymology</string>
-    <string name="title_activity_showcase">ShowcaseActivity</string>
-    <string name="hello_world">Hello world!</string>
 
 </resources>
